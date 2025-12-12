@@ -4,6 +4,7 @@ import Flag from './Flag'
 import Test from './Test'
 
 function Game() {
+    const sizeOptions = 5
     //Codigo e nome da bandeiras
     const [flags, setFlags] = useState({});
     //opcoes de bandeiras sorteadas
@@ -46,7 +47,7 @@ function Game() {
       const flagCodes = Object.keys(flags);
       console.log('Codigos de todas as Bandeiras:', flagCodes);
       const selectedCodes = [];
-      while (selectedCodes.length < 3) {
+      while (selectedCodes.length < sizeOptions) {
         const randomIndex = Math.floor(Math.random() * flagCodes.length);//random sorteia entre 0 e 1    
         const randomCode = flagCodes[randomIndex];
         if (!selectedCodes.includes(randomCode)) {

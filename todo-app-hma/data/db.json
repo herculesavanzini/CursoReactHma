@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "text": "Estudar React",
+            "done": true
+        },
+        {
+            "id": 2,
+            "text": "Ler um livro",
+            "done": false
+        },       
+        {
+            "id": 3,
+            "text": "Fazer exercícios físicos",
+            "done": false
+        }
+    ]
+}

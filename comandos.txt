@@ -1,9 +1,10 @@
-comandos subir projetos react do curso
-
+#comandos para subir projetos react do curso
 nvm install 24
-
 npm install
-
 npm run dev
 
+# comandos para instalar o json-server
+nvm install 24
+npm install -g json-server
+json-server --watch ./data/db.json --port 3001
 

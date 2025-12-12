@@ -1,0 +1,9 @@
+comandos subir projetos react do curso
+
+nvm install 24
+
+npm install
+
+npm run dev
+
+

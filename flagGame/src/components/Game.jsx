@@ -95,11 +95,11 @@ function Game() {
     <div className='game-container'> 
       <h1 className='game-title'>De onde é essa bandeira?</h1>
       <div className="score-container">
-        <p className="score-correct">
+        <p className="score correct">
           Acertos: {correctCount}
         </p>
         <p className={message=='Acertou!'?'score correct': message=='Errou!'?'score wrong':''}>{message}</p>
-        <p className="score-wrong">
+        <p className="score wrong">
           Erros: {wrongCount}
         </p>
       </div>

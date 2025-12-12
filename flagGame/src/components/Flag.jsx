@@ -5,9 +5,9 @@ function Flag({flagUrl}) {
   return (
       //somenete vai exibir a imagem somente depois de receber o url
     <div>
-      { flagUrl && <img src="{flagUrl}" alt="Bandeira" className='flag'/>}
+      { flagUrl && <img src={flagUrl} alt="Bandeira" className='flag'/>}
       <p>
-        { flagUrl}
+        {flagUrl}
       </p>
     </div>
   )

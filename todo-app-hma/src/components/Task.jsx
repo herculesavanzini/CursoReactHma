@@ -1,4 +1,5 @@
 import React from 'react'
+import './Task.css' 
 
 function Task({task, onToggleDone, onDelete, onEdit}) {
   return (
@@ -8,8 +9,8 @@ function Task({task, onToggleDone, onDelete, onEdit}) {
         {task.done?<s>{task.text}</s>:task.text}
       </span>
       <span className="actions" >
-            <button className="edit-btn" title='Editar'  onClick={() => onEdit()}><i class='bx  bx-pencil-draw'></i></button>
-            <button className='delete-btn' title='Excluir' onClick={onDelete}><i class='bx  bx-trash-x'></i> </button>
+            <button className="edit-btn" title='Editar'  onClick={() => onEdit()}><i className='bx  bx-pencil-draw'></i></button>
+            <button className='delete-btn' title='Excluir' onClick={onDelete}><i className='bx  bx-trash-x'></i> </button>
        </span> 
 
       

@@ -1,0 +1,42 @@
+.task{
+    background-color: #173640;
+    border: 1px solid #F09B20;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    position: relative;
+}
+.circle-task{
+    width: 24px;
+    height: 24px;
+    border: 3px solid #F09B20;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #173640;
+}
+.circle-task.circle-done{
+    background-color: #F09B20;
+}
+.task-done .task-text{ 
+   background-color: #fff7;
+}
+.actions{
+    position: absolute;
+    right: 12px;
+    display: flex;
+    gap: 8px;
+}
+.edit-btn, .delete-btn{
+    background: none;
+    border: none;
+    color: #AECFD2;
+    font-size: 1.8rem; /* 1.8% em relacao ao elemento raiz */
+    cursor: pointer;
+}
+.edit-btn:hover, .delete-btn:hover{
+    color: #F09B20;
+}

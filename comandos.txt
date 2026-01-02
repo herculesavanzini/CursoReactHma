@@ -8,3 +8,5 @@ nvm install 24
 npm install -g json-server
 json-server --watch ./data/db.json --port 3001
 
+#links
+https://randomuser.me/  /*api de usuarios randomicos*/
